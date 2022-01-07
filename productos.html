@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somos Luna | Tienda</title>
+    <!-- Icono pestaña -->
+    <link rel="shortcut icon" href="Media/Logo.jpg" type="image/x-icon">
+    <!-- Fuente TITULOS en css = font-family: 'Architects Daughter', cursive; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <!-- Fuente textos en css = font-family: 'Questrial', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <!-- Fuente footer en css = font-family: 'Oswald', sans-serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigSin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <!-- links bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <!-- SEO -->
+    <meta name="description"
+        content="¿Queres toallitas ecologicas, artesanales, sanas y economicas? Mirá nuestos productos.">
+    <meta name="keywords" content="comprar toallitas de tela, comprar toallitas ecologicas, comprar protectores de tela, 
+        comprar toallitas artesanales, comprar pañales de tela, somos luna productos, somos luna toallitas">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <!-- links jQuery -->
+    <!-- local -->
+    <script src="/Js/jquery.min.js"></script>
+    <!-- CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <section class="container-fluid">
+            <article class="row">
+                <nav class="navbar navbar-expand-md navbar-light bg-transparent col-12 mi-nav">
+                    <a href="#">
+                        <img src="Media/Somos Luna.jpg" class="navbar-brand" alt="Logo">
+                    </a>
+                    <button class="navbar-toggler text-center" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item mi-nav__li hover1">
+                                <a class="nav-link text-reset" href="#">inicio</a>
+                            </li>
+                            <li class="nav-item mi-nav__li hover1">
+                                <a class="nav-link text-reset" href="#">nosotras</a>
+                            </li>
+                            <li class="nav-item mi-nav__li hover1">
+                                <a class="nav-link text-reset" href="#">productos</a>
+                            </li>
+                            <li class="nav-item mi-nav__li hover1">
+                                <a class="nav-link text-reset" href="#">información</a>
+                            </li>
+                            <li class="nav-item mi-nav__li hover1">
+                                <a class="nav-link text-reset" href="#">contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </article>
+            <article class="row">
+                <div
+                    class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 text-center header__img header__img--pro">
+                    <h1 class="header__tit header__tit--pro">productos</h1>
+                </div>
+            </article>
+        </section>
+    </header>
+    <main class="container-fluid main">
+        <section class="row main__esHora">
+            <article class="col-12 text-center">
+                <h3 class="main__ff1 main__fc1 main__tsh2 fw-bold">Es hora del cambio</h3>
+            </article>
+            <article class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-center">
+                <p class="main__ff2 fst-italic text-capitalize main__tsh2 main__lista">ecológicas</p>
+            </article>
+            <article class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-center">
+                <p class="main__ff2 fst-italic text-capitalize main__tsh2 main__lista">económicas</p>
+            </article>
+            <article class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-center">
+                <p class="main__ff2 fst-italic text-capitalize main__tsh2 main__lista">sanas</p>
+            </article>
+            <article class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 text-center">
+                <p class="main__ff2 fst-italic text-capitalize main__tsh2 main__lista">tuyas</p>
+            </article>
+        </section>
+        <section class="row justify-content-evenly newConten">
+            <article class="col-3">
+                <!-- INPUT  -->
+                <input type="text" class="form-control text-center" id="nombreP" placeholder="Ingresá el producto">
+            </article>
+            <!-- MODAL -->
+            <article class="col-3">
+                <!-- BTN VER CARRO  -->
+                <button type="button" class="btn btn-success" id="verPedido" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">
+                    Ver mi pedido
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Tu pedido es:</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body container-fluid" id="modalBody">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal"
+                                    id="borrarPedido">Borrar pedido</button>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="total">Ver
+                                    total</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <!-- CARDS creadas desde JSON AJAX / MANIPULACION DE DOM -->
+        <section class="row justify-content-evenly main__cardConten"></section>
+    </main>
+    <footer class="container-fluid text-center">
+        <section class="row futer">
+            <article class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <ul class="list-inline futer_redes futer_redes--pro">
+                    <a href="https://www.facebook.com/toallitasdetela/" target="blank">
+                        <li class="list-inline-item">facebook</li>
+                    </a>
+                    <a href="https://www.instagram.com/somoslunna/?igshid=1sakiiaycgcik" target="blank">
+                        <li class="list-inline-item">instagram</li>
+                    </a>
+                    <a href="https://api.whatsapp.com/send?phone=01123456787&text=Somos Luna" target="blank">
+                        <li class="list-inline-item">whatsapp</li>
+                    </a>
+                </ul>
+            </article>
+            <article class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <h4>contactanos</h4>
+            </article>
+        </section>
+    </footer>
+    <script src="/Js/main.js"></script>
+</body>
+
+</html>

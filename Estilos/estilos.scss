@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+// VARIANTES
+
+$archi: 'Architects Daughter', cursive;
+$oswald: 'Oswald', sans-serif;
+$questrial: 'Questrial', sans-serif;
+$titcol: #C7A43C;
+$textcol2: rgb(5, 14, 19);
+$textcol3: #BFBFBF;
+$labcol: #3295FF;
+$navcolor: #2266AE;
+$fucolor: #FFF7C9;
+$bgcolor1: white;
+$bgcolor2: rgb(5, 14, 19);
+$shacol1: 3px 3px 10px #BFBFBF;
+$shacol2: 3px 3px 10px #505050;
+$shacol3: 3px 3px 5px #101010;
+$bordcol: solid 3px #2266AE;
+$fonts: 20px;
+$fontm: 35px;
+$fontl: 50px;
+
+// FUENTES
+
+.main__ff1 {
+    font-family: $archi;
+}
+
+.main__ff2 {
+    font-family: $questrial;
+}
+
+.main__ff3 { 
+    font-family: $oswald;
+}
+
+// COLORES
+
+.main__fc1 {
+    color: $navcolor;
+}
+
+.main__fc2 {
+    color: $titcol;
+}
+
+.main_fc3 {
+    color: $textcol3;
+}
+
+.main_fc4 {
+    color: $textcol2;
+}
+
+// TEXT Y BOX SHADOW
+
+.main__tsh1 {
+    text-shadow: $shacol1;
+}
+
+.main__tsh2 {
+    text-shadow: $shacol2;
+}
+
+.main__tsh3 {
+    text-shadow: $shacol3;
+}
+
+.main__imgsh {
+    box-shadow: $shacol3;
+}
+
+
+.main__cardsh {
+    box-shadow: $shacol2;
+}
+
+
+// NAV GENERAL
+
+.mi-nav__li {
+    padding: 7;
+    text-shadow: $shacol2;
+    color: $navcolor;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: $fonts - 4;
+}
+
+// HEADER GENERAL
+
+.header {
+    font-family: $archi;
+    h1 { 
+        text-transform: uppercase; 
+        color: $titcol;
+        font-weight: bolder;
+    }
+}
+
+.header__img {
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__tit {
+    text-shadow: $shacol3;
+    line-height: 500px;
+}
+
+// FUTER GENERAL
+
+.futer {
+    height: 100px;
+    background-color: $fucolor;
+    text-align: center;
+
+    li {
+        font-family: $archi;
+        text-transform: capitalize;
+        font-weight: bolder;
+        color: $navcolor;
+        text-shadow: $shacol1;
+    }
+
+    h4 {
+        font-family: $oswald;
+        text-transform: uppercase;
+        font-weight: bold;
+        text-shadow: $shacol1;
+    }
+}
+
+
+
+// IMPORT A MEDIAS QUERIE
+
+
+@import "produ";
+

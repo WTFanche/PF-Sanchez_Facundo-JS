@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+.main__ff1 {
+  font-family: "Architects Daughter", cursive;
+}
+
+.main__ff2 {
+  font-family: "Questrial", sans-serif;
+}
+
+.main__ff3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.main__fc1 {
+  color: #2266AE;
+}
+
+.main__fc2 {
+  color: #C7A43C;
+}
+
+.main_fc3 {
+  color: #BFBFBF;
+}
+
+.main_fc4 {
+  color: #050e13;
+}
+
+.main__tsh1 {
+  text-shadow: 3px 3px 10px #BFBFBF;
+}
+
+.main__tsh2 {
+  text-shadow: 3px 3px 10px #505050;
+}
+
+.main__tsh3 {
+  text-shadow: 3px 3px 5px #101010;
+}
+
+.main__imgsh {
+  box-shadow: 3px 3px 5px #101010;
+}
+
+.main__cardsh {
+  box-shadow: 3px 3px 10px #505050;
+}
+
+.mi-nav__li {
+  padding: 7;
+  text-shadow: 3px 3px 10px #505050;
+  color: #2266AE;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.header {
+  font-family: "Architects Daughter", cursive;
+}
+.header h1 {
+  text-transform: uppercase;
+  color: #C7A43C;
+  font-weight: bolder;
+}
+
+.header__img {
+  height: 500px;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.header__tit {
+  text-shadow: 3px 3px 5px #101010;
+  line-height: 500px;
+}
+
+.futer {
+  height: 100px;
+  background-color: #FFF7C9;
+  text-align: center;
+}
+.futer li {
+  font-family: "Architects Daughter", cursive;
+  text-transform: capitalize;
+  font-weight: bolder;
+  color: #2266AE;
+  text-shadow: 3px 3px 10px #BFBFBF;
+}
+.futer h4 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 3px 3px 10px #BFBFBF;
+}
+
+.header__img--pro {
+  background-image: url(../Media/tela.jpg);
+}
+
+.main__cardConten {
+  margin-bottom: 35px;
+}
+
+.main_cardPadd {
+  padding-top: 11px;
+}
+
+.newConten {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 320px) {
+  .mi-nav {
+    text-align: center;
+  }
+
+  .main__card {
+    margin-bottom: 30px;
+  }
+
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 200px;
+  }
+
+  .main__esHora {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .main__lista {
+    margin-top: 8px;
+  }
+
+  .futer_redes--pro {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 360px) {
+  .mi-nav {
+    text-align: center;
+  }
+
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 250px;
+  }
+
+  .main__esHora {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .main__lista {
+    margin-top: 8px;
+  }
+
+  .futer_redes--pro {
+    margin-top: 5px;
+  }
+}
+@media (min-width: 375px) {
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 290px;
+  }
+}
+@media (min-width: 411px) {
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 300px;
+  }
+
+  .futer_redes--pro {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 576px) {
+  .futer_redes--pro {
+    margin-top: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 400px;
+  }
+
+  .main__lista {
+    margin-top: 10px;
+  }
+
+  .futer_redes--pro {
+    margin-top: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 320px;
+  }
+
+  .main__lista {
+    font-size: 20px;
+  }
+
+  .futer_redes--pro {
+    margin-top: 8px;
+  }
+}
+@media (min-width: 1024px) {
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 320px;
+  }
+
+  .main__lista {
+    font-size: 20px;
+  }
+
+  .futer_redes--pro {
+    margin-top: 8px;
+  }
+}
+@media (min-width: 1600px) {
+  .header__tit--pro {
+    line-height: 1.3;
+    margin-top: 225px;
+  }
+
+  .main__lista {
+    font-size: 20px;
+  }
+}/*# sourceMappingURL=estilos.css.map */

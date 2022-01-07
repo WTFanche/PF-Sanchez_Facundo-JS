@@ -1,0 +1,19 @@
+[{
+    "id": 1,
+    "nombre": "Toallita",
+    "precio": 300,
+    "imagen": "Media/toall2.jpeg"
+},
+{
+    "id": 2,
+    "nombre": "Protector diario",
+    "precio": 240,
+    "imagen": "Media/prot2.jpeg"
+},
+{
+    "id": 3,
+    "nombre": "Copa menstrual",
+    "precio": 650,
+    "imagen": "Media/toallita linda.jpg"
+}
+]
