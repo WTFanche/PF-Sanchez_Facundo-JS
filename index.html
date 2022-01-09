@@ -99,62 +99,55 @@
                 <p class="main__ff2 fst-italic text-capitalize main__tsh2 main__lista">tuyas</p>
             </article>
         </section>
+        <!-- CARDS creadas desde JSON AJAX / MANIPULACION DE DOM -->
         <section class="row justify-content-evenly newConten">
-            <article class="col-3">
-                <!-- INPUT  -->
-                <input type="text" class="form-control text-center" id="nombreP" placeholder="Ingresá el producto">
-            </article>
             <!-- MODAL -->
-            <article class="col-3">
+            <article class="col-10 text-end">
                 <!-- BTN VER CARRO  -->
-                <button type="button" class="btn btn-success" id="verPedido" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Ver mi pedido
+                <button type="button" class="btn btn-success mx-5" id="verPedido" data-bs-toggle="modal"
+                    data-bs-target="#miModal">
+                    Ver carrito
                 </button>
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
+                <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Tu pedido es:</h5>
+                                <h5 class="modal-title" id="modalLabel">Tu pedido es:</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="modal"
                                     aria-label="Close"></button>
                             </div>
+                            <!-- MODAL BODY  -->
                             <div class="modal-body container-fluid" id="modalBody">
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                                <button type="button" class="btn btn-warning" data-bs-dismiss="modal"
-                                    id="borrarPedido">Borrar pedido</button>
-                                <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="total">Ver
-                                    total</button>
+                            <div class="modal-footer justify-content-between">
+                                <button class="btn btn-outline-success btn-sm mx-5" type="submit"
+                                    id="btnTotal">Total</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mx-5" id="btnBorra">Vaciar
+                                    carrito</button>
+                                <button type="button" class="btn btn-light btn-sm mx-5"
+                                    data-bs-dismiss="modal">Cerrar</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
         </section>
-        <!-- CARDS creadas desde JSON AJAX / MANIPULACION DE DOM -->
-        <section class="row justify-content-evenly main__cardConten"></section>
+        <section class="row justify-content-evenly main__cardConten">
+        </section>
     </main>
-    <footer class="container-fluid text-center">
+    <footer class="container-fluid text-center text-reset">
         <section class="row futer">
             <article class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <ul class="list-inline futer_redes futer_redes--pro">
-                    <a href="https://www.facebook.com/toallitasdetela/" target="blank">
-                        <li class="list-inline-item">facebook</li>
-                    </a>
-                    <a href="https://www.instagram.com/somoslunna/?igshid=1sakiiaycgcik" target="blank">
-                        <li class="list-inline-item">instagram</li>
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=01123456787&text=Somos Luna" target="blank">
-                        <li class="list-inline-item">whatsapp</li>
-                    </a>
+                    <li class="list-inline-item mx-5">facebook</li>
+                    <li class="list-inline-item mx-5">instagram</li>
+                    <li class="list-inline-item mx-5">whatsapp</li>
                 </ul>
             </article>
             <article class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                 <h4>contactanos</h4>
             </article>
+
         </section>
     </footer>
     <script src="/Js/main.js"></script>
