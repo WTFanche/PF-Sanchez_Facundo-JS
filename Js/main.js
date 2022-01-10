@@ -21,9 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
 	console.log("HTML Listo");
 })
 
-window.addEventListener('load', () => {
-	console.log("Todos los doc listos");
-});
 
 /* Clase constructora */
 
