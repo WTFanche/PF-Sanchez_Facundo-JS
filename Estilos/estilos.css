@@ -104,6 +104,13 @@
   text-shadow: 3px 3px 10px #BFBFBF;
 }
 
+.carrito {
+  min-height: 30vh;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+
 .header__img--pro {
   background-image: url(../Media/tela.jpg);
 }

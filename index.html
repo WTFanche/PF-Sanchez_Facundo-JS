@@ -109,7 +109,7 @@
                     Ver carrito
                 </button>
                 <div class="modal fade" id="miModal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-                    <div class="modal-dialog modal-lg">
+                    <div class="modal-dialog modal-xl">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title" id="modalLabel">Tu pedido es:</h5>
@@ -118,14 +118,29 @@
                             </div>
                             <!-- MODAL BODY  -->
                             <div class="modal-body container-fluid" id="modalBody">
+                                <table class="table">
+                                    <thead>
+                                      <tr>
+                                        <th scope="col"></th>
+                                        <th scope="col">Producto</th>
+                                        <th scope="col">Precio</th>
+                                        <th scope="col">Cantidad</th>
+                                      </tr>
+                                    </thead>
+                                    <tbody class="tablaBody">
+                                    </tbody>
+                                  </table>
+                                  <div class="row">
+                                      <div class="col">
+                                          <h4 class="carritoTotalItem">Total: 0</h4>
+                                      </div>
+                                  </div>
                             </div>
                             <div class="modal-footer justify-content-between">
-                                <button class="btn btn-outline-success btn-sm mx-5" type="submit"
-                                    id="btnTotal">Total</button>
-                                <button type="button" class="btn btn-outline-danger btn-sm mx-5" id="btnBorra">Vaciar
-                                    carrito</button>
                                 <button type="button" class="btn btn-light btn-sm mx-5"
                                     data-bs-dismiss="modal">Cerrar</button>
+                                <button type="button" class="btn btn-outline-danger btn-sm mx-5" id="btnBorra">Vaciar
+                                    carrito</button>
                             </div>
                         </div>
                     </div>
